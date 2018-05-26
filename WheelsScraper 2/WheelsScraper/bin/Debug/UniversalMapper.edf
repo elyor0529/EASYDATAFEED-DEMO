@@ -1,0 +1,1419 @@
+<?xml version="1.0"?>
+<ScraperSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpecialSettings xsi:type="ExtSettings">
+
+  </SpecialSettings>
+  <Name>UniversalMapper</Name>
+  <MaxThreads>1</MaxThreads>
+  <MaxDelay>0</MaxDelay>
+  <Logins />
+  <EnableSchedule>false</EnableSchedule>
+  <Schedule>
+    <ScheduleItem>
+      <Start>0001-01-01T10:00:00</Start>
+      <End>0001-01-01T23:00:00</End>
+      <Interval>60</Interval>
+      <Enabled>false</Enabled>
+      <NextRunIn />
+    </ScheduleItem>
+  </Schedule>
+  <Brands />
+  <BrandsStr />
+  <FtpAddress>ftp://ftp.</FtpAddress>
+  <FtpUsername />
+  <FtpPassword />
+  <LocalPath>c:\EasyDataFeed</LocalPath>
+  <OutputBadDataToError>false</OutputBadDataToError>
+  <ConvertPDFToJpg>false</ConvertPDFToJpg>
+  <SkipExistingImages>false</SkipExistingImages>
+  <SkipUploadOfExistingImages>false</SkipUploadOfExistingImages>
+  <DontOverwriteImagesOnFtp>false</DontOverwriteImagesOnFtp>
+  <S3Settings>
+    <UploadToS3>true</UploadToS3>
+    <ExportByBrand>false</ExportByBrand>
+    <OverwriteFile>false</OverwriteFile>
+    <AccessKeyID>CHANGE ME</AccessKeyID>
+    <SecretAccessKey>CHANGE ME</SecretAccessKey>
+    <BucketName>SCE.Test</BucketName>
+    <Folder>Images</Folder>
+  </S3Settings>
+  <ExportProfiles>
+    <ExportProfile>
+      <Name>Default</Name>
+      <Fields>
+        <FieldInfo>
+          <FieldName>Product Type</FieldName>
+          <Header>Product Type</Header>
+          <VisibleIndex>0</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Anchor Text</FieldName>
+          <Header>Anchor Text</Header>
+          <VisibleIndex>1</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Product Title</FieldName>
+          <Header>Product Title</Header>
+          <VisibleIndex>2</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName />
+          <Header>Sub Title</Header>
+          <VisibleIndex>3</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Brand</FieldName>
+          <Header>Brand</Header>
+          <VisibleIndex>4</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Description</FieldName>
+          <Header>Description</Header>
+          <VisibleIndex>5</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Additional Description</FieldName>
+          <Header>Additional Description</Header>
+          <VisibleIndex>6</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Bullet Point</FieldName>
+          <Header>Bullet Point</Header>
+          <VisibleIndex>7</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>META Description</FieldName>
+          <Header>META Description</Header>
+          <VisibleIndex>8</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>META Keywords</FieldName>
+          <Header>META Keywords</Header>
+          <VisibleIndex>9</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>General Image</FieldName>
+          <Header>General Image</Header>
+          <VisibleIndex>10</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>true</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Main Category</FieldName>
+          <Header>Main Category</Header>
+          <VisibleIndex>11</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Sub Category</FieldName>
+          <Header>Sub Category</Header>
+          <VisibleIndex>12</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Section Category</FieldName>
+          <Header>Section Category</Header>
+          <VisibleIndex>13</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Specifications</Header>
+          <VisibleIndex>14</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Featured</Header>
+          <VisibleIndex>15</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Supplier</FieldName>
+          <Header>Supplier</Header>
+          <VisibleIndex>16</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Re-Order Supplier</FieldName>
+          <Header>Re-Order Supplier</Header>
+          <VisibleIndex>17</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Warehouse</Header>
+          <VisibleIndex>18</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Workflow</Header>
+          <VisibleIndex>19</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Processing Time</Header>
+          <VisibleIndex>20</VisibleIndex>
+          <Export>true</Export>
+          <CustomValue>7</CustomValue>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Handling Surcharge</Header>
+          <VisibleIndex>21</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Type</Header>
+          <VisibleIndex>22</VisibleIndex>
+          <Export>true</Export>
+          <CustomValue>dynamic</CustomValue>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Ground Rate</Header>
+          <VisibleIndex>23</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping 3-Day Air Rate</Header>
+          <VisibleIndex>24</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping 2-Day Air Rate</Header>
+          <VisibleIndex>25</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Next-Day Air Rate</Header>
+          <VisibleIndex>26</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. North America</Header>
+          <VisibleIndex>27</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. South America</Header>
+          <VisibleIndex>28</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. Europe</Header>
+          <VisibleIndex>29</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. Africa</Header>
+          <VisibleIndex>30</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. Asia</Header>
+          <VisibleIndex>31</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Shipping Inter. Oceania</Header>
+          <VisibleIndex>32</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Qty</FieldName>
+          <Header>Qty</Header>
+          <VisibleIndex>33</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Items Per Qty</Header>
+          <VisibleIndex>34</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Part Number</FieldName>
+          <Header>Part Number</Header>
+          <VisibleIndex>35</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName />
+          <Header>Manufacturer Part Number</Header>
+          <VisibleIndex>36</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Application Specific Image</Header>
+          <VisibleIndex>37</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Application Specifications</Header>
+          <VisibleIndex>38</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Warning Note</Header>
+          <VisibleIndex>39</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>MSRP</FieldName>
+          <Header>MSRP</Header>
+          <VisibleIndex>40</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Jobber</FieldName>
+          <Header>Jobber</Header>
+          <VisibleIndex>41</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Web Price</FieldName>
+          <Header>Web Price</Header>
+          <VisibleIndex>42</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Cost Price</FieldName>
+          <Header>Cost Price</Header>
+          <VisibleIndex>43</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Item Weight</FieldName>
+          <Header>Item Weight</Header>
+          <VisibleIndex>44</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Item Height</FieldName>
+          <Header>Item Height</Header>
+          <VisibleIndex>45</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Item Width</FieldName>
+          <Header>Item Width</Header>
+          <VisibleIndex>46</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Item Length</FieldName>
+          <Header>Item Length</Header>
+          <VisibleIndex>47</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Shipping Weight</FieldName>
+          <Header>Shipping Weight</Header>
+          <VisibleIndex>48</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Shipping Height</FieldName>
+          <Header>Shipping Height</Header>
+          <VisibleIndex>49</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Shipping Width</FieldName>
+          <Header>Shipping Width</Header>
+          <VisibleIndex>50</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Shipping Length</FieldName>
+          <Header>Shipping Length</Header>
+          <VisibleIndex>51</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Primary Option Title</Header>
+          <VisibleIndex>52</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Primary Choice</Header>
+          <VisibleIndex>53</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Second Option Title</Header>
+          <VisibleIndex>54</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Second Option Choice</Header>
+          <VisibleIndex>55</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Second Option Part Number Ext</Header>
+          <VisibleIndex>56</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Third Option Title</Header>
+          <VisibleIndex>57</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Third Option Choice</Header>
+          <VisibleIndex>58</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Third Option Part Number Ext</Header>
+          <VisibleIndex>59</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Vehicle Make</FieldName>
+          <Header>Vehicle Make</Header>
+          <VisibleIndex>60</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Vehicle Model</FieldName>
+          <Header>Vehicle Model</Header>
+          <VisibleIndex>61</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Vehicle Sub Model</FieldName>
+          <Header>Vehicle Sub Model</Header>
+          <VisibleIndex>62</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>Start Year</FieldName>
+          <Header>Start Year</Header>
+          <VisibleIndex>63</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <FieldName>End Year</FieldName>
+          <Header>End Year</Header>
+          <VisibleIndex>64</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Engine</Header>
+          <VisibleIndex>65</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Aspiration</Header>
+          <VisibleIndex>66</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Cylinder Type</Header>
+          <VisibleIndex>67</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Drive Type</Header>
+          <VisibleIndex>68</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Brakes</Header>
+          <VisibleIndex>69</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>ABS</Header>
+          <VisibleIndex>70</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Transmission</Header>
+          <VisibleIndex>71</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Doors</Header>
+          <VisibleIndex>72</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Body Type</Header>
+          <VisibleIndex>73</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Bed Type</Header>
+          <VisibleIndex>74</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Navigation</Header>
+          <VisibleIndex>75</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Climate Control</Header>
+          <VisibleIndex>76</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Radio</Header>
+          <VisibleIndex>77</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Heated Seats</Header>
+          <VisibleIndex>78</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Sunroof</Header>
+          <VisibleIndex>79</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Vehicle Engine Options</Header>
+          <VisibleIndex>80</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Vehicle Interior Options</Header>
+          <VisibleIndex>81</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Vehicle Exterior Options</Header>
+          <VisibleIndex>82</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Vehicle Warning Note</Header>
+          <VisibleIndex>83</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>VehicleOptions</Header>
+          <VisibleIndex>84</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel Diameter</Header>
+          <VisibleIndex>85</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel Width</Header>
+          <VisibleIndex>86</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel Finish</Header>
+          <VisibleIndex>87</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel Offset</Header>
+          <VisibleIndex>88</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel HubBore</Header>
+          <VisibleIndex>89</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Wheel BoltPattern</Header>
+          <VisibleIndex>90</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Section Width</Header>
+          <VisibleIndex>91</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Aspect Ratio</Header>
+          <VisibleIndex>92</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Diameter</Header>
+          <VisibleIndex>93</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Speed Rating</Header>
+          <VisibleIndex>94</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Load Index</Header>
+          <VisibleIndex>95</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Tire Type</Header>
+          <VisibleIndex>96</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Load Range</Header>
+          <VisibleIndex>97</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+        <FieldInfo>
+          <Header>Side Wall</Header>
+          <VisibleIndex>98</VisibleIndex>
+          <Export>true</Export>
+          <IsImageColumn>false</IsImageColumn>
+          <UseDataFromAdditionalSources>false</UseDataFromAdditionalSources>
+          <Case>Ignore</Case>
+          <ExportRules />
+          <StripHtml>false</StripHtml>
+          <MaxLength>0</MaxLength>
+          <SearchForImage>false</SearchForImage>
+          <SearchForAttachments>false</SearchForAttachments>
+        </FieldInfo>
+      </Fields>
+      <IsDefault>true</IsDefault>
+      <AdditionalStaticFields />
+      <UseStaticFields>true</UseStaticFields>
+    </ExportProfile>
+  </ExportProfiles>
+  <LocalExportSettings>
+    <ExportSettings>
+      <FileName>UniversalMapper</FileName>
+      <ProfileName>Default</ProfileName>
+      <Zip>false</Zip>
+      <MaxRecords>0</MaxRecords>
+    </ExportSettings>
+  </LocalExportSettings>
+  <FtpExportSettings>
+    <ExportSettings>
+      <FileName>UniversalMapper</FileName>
+      <ProfileName>Default</ProfileName>
+      <Zip>false</Zip>
+      <MaxRecords>0</MaxRecords>
+    </ExportSettings>
+  </FtpExportSettings>
+  <S3ExportSettings />
+  <ExportRules />
+  <BulletsMoveInfos />
+  <CategoryInfos />
+  <LastRun>2014-05-28T21:23:29.2245988+04:00</LastRun>
+  <FileName>UniversalMapper</FileName>
+  <OverwriteFile>true</OverwriteFile>
+  <FtpFileName>UniversalMapper</FtpFileName>
+  <OverwriteFtpFile>false</OverwriteFtpFile>
+  <UseProxy>false</UseProxy>
+  <UseFtp>false</UseFtp>
+  <Fields />
+  <SaveLocally>true</SaveLocally>
+  <Googlebot>true</Googlebot>
+  <Url />
+  <MaxRecords>3</MaxRecords>
+  <LocalSaveByBrand>false</LocalSaveByBrand>
+  <FtpSaveByBrand>false</FtpSaveByBrand>
+  <LimitRecords>false</LimitRecords>
+  <UseLogin>false</UseLogin>
+  <ProcessAssembly>Databox.Libs.UniversalMapper.dll</ProcessAssembly>
+  <ConvertImages>true</ConvertImages>
+  <DownloadImages>true</DownloadImages>
+  <UploadImagesToFtp>false</UploadImagesToFtp>
+  <SCEServerAddress>https://api.shoppingcartelite.com/master/sceapi.asmx</SCEServerAddress>
+  <SCEBatchProcess>false</SCEBatchProcess>
+  <SCEDemoSite>scedesignsample.com</SCEDemoSite>
+  <NotificationSettings />
+</ScraperSettings>

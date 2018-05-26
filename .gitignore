@@ -1,0 +1,8 @@
+/EDF dev/obj
+/EDF dev/bin
+/EDF Modules/TestModule1/obj
+/Zieglers/obj
+/EDF Modules/Zieglers/bin
+/EDF Modules/Zieglers/obj
+/WheelsScraper 2/WheelsScraper/bin/Debug/logfiles
+/.vs

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDF dev", "EDF dev\EDF dev.csproj", "{1B59F391-50F1-49E4-841F-B99AF1DBB5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EDF Modules", "EDF Modules", "{02CA858B-AD61-42B9-82A4-F288245E1048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zieglers", "EDF Modules\Zieglers\Zieglers.csproj", "{9CB1960C-DAD0-4068-B191-57C316003F79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B59F391-50F1-49E4-841F-B99AF1DBB5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B59F391-50F1-49E4-841F-B99AF1DBB5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B59F391-50F1-49E4-841F-B99AF1DBB5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B59F391-50F1-49E4-841F-B99AF1DBB5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB1960C-DAD0-4068-B191-57C316003F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB1960C-DAD0-4068-B191-57C316003F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB1960C-DAD0-4068-B191-57C316003F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB1960C-DAD0-4068-B191-57C316003F79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CB1960C-DAD0-4068-B191-57C316003F79} = {02CA858B-AD61-42B9-82A4-F288245E1048}
+	EndGlobalSection
+EndGlobal
